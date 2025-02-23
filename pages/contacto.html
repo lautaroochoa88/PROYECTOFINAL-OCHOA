@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+ 
+  <!-- Enlace a Bootstrap desde CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- HEADER: Cabecera del sitio con Menú Hamburguesa -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/productos-destacados.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN: Contenido principal -->
+
+  <main class="container py-5">
+    <h1 class="text-center mb-4">Contacto</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Formulario de Contacto</h3>
+        <form>
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" class="form-control" id="name" placeholder="Introduce tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" class="form-control" id="email" placeholder="Introduce tu correo">
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje:</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <h3>Dirección</h3>
+        <p>Calle falsa 123, Ciudad, Muy muy lejano</p>
+        <p>Teléfono: (123) 456-7890</p>
+        <p>Email: contacto@SplinterShop.com</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER: Pie de página -->
+   
+  <footer>
+    <p>&copy; 2025 SplinterShop. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Enlace a los scripts de Bootstrap -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
